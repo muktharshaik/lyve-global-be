@@ -1,83 +1,212 @@
 {
-    "restaurants": [
-      {
-        "name": "Delicious Bistro",
-        "location": "123 Main Street",
-        "cuisine": "Italian",
-        "rating": 4.5,
-        "reviews": [
-          {
-            "user": "User123",
-            "comment": "Great food and service!",
-            "rating": 5
-          },
-          {
-            "user": "Foodie456",
-            "comment": "Nice ambiance but slow service.",
-            "rating": 3.5
-          }
-        ],
-        "menu": [
-          {
-            "item": "Spaghetti Carbonara",
-            "price": 12.99
-          },
-          {
-            "item": "Margherita Pizza",
-            "price": 9.99
-          },
-          {
-            "item": "Tiramisu",
-            "price": 5.99
-          }
-        ],
-        "exclusive_deals": [
-          {
-            "name": "Weekend Special",
-            "description": "20% off on all pasta dishes every Saturday and Sunday."
-          }
-        ],
-        "meal_for_one": true
-      },
-      {
-        "name": "Sushi Delight",
-        "location": "456 Sushi Lane",
-        "cuisine": "Japanese",
-        "rating": 4.2,
-        "reviews": [
-          {
-            "user": "SushiLover",
-            "comment": "Fresh and delicious sushi!",
-            "rating": 4.5
-          },
-          {
-            "user": "WasabiMaster",
-            "comment": "Good, but could improve on variety.",
-            "rating": 3.8
-          }
-        ],
-        "menu": [
-          {
-            "item": "Sashimi Platter",
-            "price": 18.99
-          },
-          {
-            "item": "Dragon Roll",
-            "price": 14.99
-          },
-          {
-            "item": "Miso Soup",
-            "price": 3.99
-          }
-        ],
-        "exclusive_deals": [
-          {
-            "name": "Sushi Combo",
-            "description": "Try our Sushi Combo for 2 at just $29.99!"
-          }
-        ],
-        "meal_for_one": false
-      }
-    ]
-  }
-  
+  "restaurants": [
+    {
+      "id": "7856c165-9108-4d24-83b5-2c24bc25d39f",
+      "name": "KFC",
+      "image": "some string",
+      "deliveryTime": "45mins",
+      "costRange": 2,
+      "rating": 4.2,
+      "categories": [
+        {
+          "categoryId": "625e2c7a-5b26-4d36-ba40-fe01934d4979",
+          "categoryName": "Exclusive Deals",
+          "items": [
+            {
+              "itemId": "e623c480-9c65-4576-948e-e17720892d50",
+              "name": "Super Mega Deal",
+              "description": "8 Pcs Chicken + 5 Strips + 1 Family Fries + 1 Large Coleslaw + 500ML Drink",
+              "price": 26,
+              "image": "some string",
+              "customizations": [
+                {
+                  "primaryText": "Select 8 pieces of your favourite flavour",
+                  "secondaryText": "Choose 1",
+                  "isRequired": true,
+                  "variants": [
+                    { "name": "Chicken Pc - Original", "price": null },
+                    { "name": "Chicken Pc - Spicy", "price": 10 }
+                  ]
+                },
+                {
+                  "primaryText": "Choice of Strips",
+                  "secondaryText": "Choose Min 1, Max 5",
+                  "isRequired": true,
+                  "variants": [
+                    {
+                      "name": "Crispy Strips Original",
+                      "price": null,
+                      "image": "some string"
+                    },
+                    {
+                      "name": "Cripsy Strips Spicy",
+                      "price": 1,
+                      "image": "Some string"
+                    }
+                  ]
+                },
+                {
+                  "primaryText": "Select Your Fries family",
+                  "secondaryText": "Choose Min 1, Max 3",
+                  "isRequired": true,
+                  "variants": [
+                    {
+                      "name": "Family Fries",
+                      "price": null,
+                      "image": "some string"
+                    },
+                    {
+                      "name": "Family Fries Spicy",
+                      "price": 3,
+                      "image": "Some string"
+                    },
+                    {
+                      "name": "Family Fries Loaded",
+                      "price": 5,
+                      "image": "some string"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "itemId": "d3f1b685-0915-4dff-af72-1ecfbe713c6d",
+              "name": "Mighty Lay's Flamin' Hot",
+              "description": "2 Pcs Chicken + 5 Strips + 1 Family Friens + 1 Large Coleslaw + 1 Ltr Drink",
+              "price": 49,
+              "image": "some String"
+            }
+          ]
+        },
+        {
+          "cateogryId": "8725c3c2-a701-4da5-9a59-a72e71f1f329",
+          "categoryName": "Meal for 1",
+          "items": [
+            {
+              "itemId": "3dfa4d39-033e-4df1-9e6c-5edf9ad80ade",
+              "name": "Veg zinger Burger with Cheese",
+              "description": "Signature Veg burger with crispy patties, veggies & a tangy sauce",
+              "price": 10,
+              "image": "some string"
+            },
+            {
+              "itemId": "df90220f-14d5-4b75-846c-5e21104c3db8",
+              "name": "Mighty Zinger Sandwich",
+              "description": "2 Chicken breast fillets with KFC's SPicy Zinger Recipe, cheese, lettuce, spicy",
+              "price": 13,
+              "image": "some string"
+            },
+            {
+              "itemId": "534ac9e6-beb1-4508-9ac6-4c00fb535b72",
+              "name": "Fillet Supreme",
+              "description": "Original Chicken breast fillet, melted cheddar cheese, lettuce, smoked turkey",
+              "price": 9,
+              "image": "some String"
+            }
+          ]
+        },
+        {
+          "categoryId": "d369155d-e99b-4d0d-8336-7cb895f7f679",
+          "categoryName": "Mighty Twist",
+          "items": [
+            {
+              "itemId": "69bfbacd-76da-4236-8635-05bd951ffe4a",
+              "name": "Mighty Zinger Sandwich",
+              "description": "Dynamite Burger + Twister + Fries + Drink",
+              "price": 30,
+              "image": "some string"
+            },
+            {
+              "itemId": "f48632b7-bd39-4a21-8669-173e63a140d2",
+              "name": "12 PCs Double Bucket",
+              "description": "12 Pcs Chicken - Original + 12 Pcs + Chicken Spicy + Family Fries + Coleslaw Salad",
+              "price": 63,
+              "image": "some string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4908e21-4631-4688-b38e-88bf59cfdb4f",
+      "name": "The Cheesecake Factory",
+      "image": "some string",
+      "deliveryTime": "30mins",
+      "costRange": 2,
+      "rating": 4.2,
+      "categories": [
+        {
+          "categoryId": "0f986cb7-e0cc-4d8c-b20d-b747dc321a50",
+          "categoryName": "Factory Combinations",
+          "items": [
+            {
+              "itemId": "tur32-opw21-njg2",
+              "name": "Luau Salad",
+              "description": "Grilled chicken breast layered with mixed greens, pineapple, cucumbers, red and yellow peppers, green beans, carrots, onions and crisp wontons with macadamia nuts, peanuts and sesame seeds. Tossed in our vinaigrette.",
+              "price": 84,
+              "image": "some string",
+              "customizations": [
+                {
+                  "primaryText": "Select size",
+                  "secondaryText": "Choose 1",
+                  "isRequired": true,
+                  "variants": [
+                    { "name": "Small", "price": null },
+                    { "name": "Large", "price": 20 }
+                  ]
+                }
+              ]
+            },
+            {
+              "itemId": "aaaedfb9-49ca-49d1-b948-8cb4bf2b7464",
+              "name": "Factory Nachos",
+              "description": "Crisp tortilla chips covered with melted cheeses, guacamole, sour cream, jalapenos, green onions and salsa.",
+              "price": 69,
+              "image": "some String"
+            }
+          ]
+        },
+        {
+          "cateogryId": "72019880-27b6-4e8a-addb-e5a9138929b3",
+          "categoryName": "Appetizers",
+          "items": [
+            {
+              "itemId": "ccf20885-bad3-410c-ba8d-21b7e24c2d61",
+              "name": "Quesadilla",
+              "description": "Grilled flour tortilla filled with melted cheese, green onions and chiles. Garnished with guacamole, salsa and sour cream.",
+              "price": 30,
+              "image": "some string"
+            },
+            {
+              "itemId": "8b35f051-f574-4565-b3a0-93a560bec9e6",
+              "name": "Avocado Eggrolls",
+              "description": "Avocado, sun dried tomato, red onion and cilantro fried in a crisp wrapper. Served with a tamarind cashew dipping sauce.",
+              "price": 13,
+              "image": "some string"
+            }
+          ]
+        },
+        {
+          "cateogryId": "7065b183-53df-4904-8dec-e0de6be67032",
+          "categoryName": "Steak and Chops",
+          "items": [
+            {
+              "itemId": "68da67d8-7988-4b46-abff-42372b2afb7e",
+              "name": "Chicken Madeira with Steak Diane",
+              "description": "Served with mashed potatoes.",
+              "price": 30,
+              "image": "some string"
+            },
+            {
+              "itemId": "08acc3c3-99ad-4870-a2b9-ea85fd16038f",
+              "name": "Chargrilled Bone-In New York Steak",
+              "description": "Served with Mashed Potatoes and Vegetable",
+              "price": 13,
+              "image": "some string"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
