@@ -1,0 +1,83 @@
+{
+    "restaurants": [
+      {
+        "name": "Delicious Bistro",
+        "location": "123 Main Street",
+        "cuisine": "Italian",
+        "rating": 4.5,
+        "reviews": [
+          {
+            "user": "User123",
+            "comment": "Great food and service!",
+            "rating": 5
+          },
+          {
+            "user": "Foodie456",
+            "comment": "Nice ambiance but slow service.",
+            "rating": 3.5
+          }
+        ],
+        "menu": [
+          {
+            "item": "Spaghetti Carbonara",
+            "price": 12.99
+          },
+          {
+            "item": "Margherita Pizza",
+            "price": 9.99
+          },
+          {
+            "item": "Tiramisu",
+            "price": 5.99
+          }
+        ],
+        "exclusive_deals": [
+          {
+            "name": "Weekend Special",
+            "description": "20% off on all pasta dishes every Saturday and Sunday."
+          }
+        ],
+        "meal_for_one": true
+      },
+      {
+        "name": "Sushi Delight",
+        "location": "456 Sushi Lane",
+        "cuisine": "Japanese",
+        "rating": 4.2,
+        "reviews": [
+          {
+            "user": "SushiLover",
+            "comment": "Fresh and delicious sushi!",
+            "rating": 4.5
+          },
+          {
+            "user": "WasabiMaster",
+            "comment": "Good, but could improve on variety.",
+            "rating": 3.8
+          }
+        ],
+        "menu": [
+          {
+            "item": "Sashimi Platter",
+            "price": 18.99
+          },
+          {
+            "item": "Dragon Roll",
+            "price": 14.99
+          },
+          {
+            "item": "Miso Soup",
+            "price": 3.99
+          }
+        ],
+        "exclusive_deals": [
+          {
+            "name": "Sushi Combo",
+            "description": "Try our Sushi Combo for 2 at just $29.99!"
+          }
+        ],
+        "meal_for_one": false
+      }
+    ]
+  }
+  

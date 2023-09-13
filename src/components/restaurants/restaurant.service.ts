@@ -1,7 +1,13 @@
-export const getRestaurants = async () => {
+import { getRestaurantsData } from './restaurant.DAL';
+
+export const getRestaurantsList = async () => {
   try {
-    /* empty */
+    const data = await getRestaurantsData();
+    return data;
   } catch (error) {
-    /* empty */
+    return {
+      status: 500,
+      message: 'Something went wrong!',
+    };
   }
 };
