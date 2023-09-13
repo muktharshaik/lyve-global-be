@@ -1,4 +1,4 @@
-import { getRestaurants } from './restaurant.controller';
+import { getRestaurants } from './categories.controller';
 import express from 'express';
 
 const router = express.Router();
