@@ -75,6 +75,13 @@
               "description": "2 Pcs Chicken + 5 Strips + 1 Family Friens + 1 Large Coleslaw + 1 Ltr Drink",
               "price": 49,
               "image": "some String"
+            },
+            {
+              "itemId": "75f9ee1f-f9a7-4dea-a52e-c5b67cc5d43f",
+              "name": "Super Awesome Deal ahs been updated",
+              "description": "some random description",
+              "price": 27,
+              "image": "some string updated"
             }
           ]
         },

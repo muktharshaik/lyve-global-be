@@ -8,6 +8,7 @@ export interface CustomizationOption {
   primaryText: string;
   secondaryText: string;
   isRequired: boolean;
+  image?: string;
   variants: CustomizationVariant[];
 }
 
@@ -17,7 +18,7 @@ export interface Item {
   description: string;
   price: number;
   image: string;
-  customizations: CustomizationOption[];
+  customizations?: CustomizationOption[];
 }
 
 export interface Category {
