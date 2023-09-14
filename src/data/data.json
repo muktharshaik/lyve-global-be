@@ -9,8 +9,8 @@
       "rating": 4.2,
       "categories": [
         {
+          "categoryName": "Category Updated",
           "categoryId": "625e2c7a-5b26-4d36-ba40-fe01934d4979",
-          "categoryName": "Exclusive Deals",
           "items": [
             {
               "itemId": "e623c480-9c65-4576-948e-e17720892d50",
@@ -129,6 +129,19 @@
               "description": "12 Pcs Chicken - Original + 12 Pcs + Chicken Spicy + Family Fries + Coleslaw Salad",
               "price": 63,
               "image": "some string"
+            }
+          ]
+        },
+        {
+          "categoryId": "5448ee18-7b89-4b34-a834-19fac06523d7",
+          "categoryName": "NEW CATEGORY Updated",
+          "items": [
+            {
+              "itemId": "8152ca13-6a9d-4db7-9070-c8fb9ec31e18",
+              "name": "Super Awesome Deal",
+              "description": "some random description",
+              "price": 26,
+              "image": "some string updated"
             }
           ]
         }

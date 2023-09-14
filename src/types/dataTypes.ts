@@ -9,7 +9,7 @@ export interface CustomizationOption {
   secondaryText: string;
   isRequired: boolean;
   image?: string;
-  variants: CustomizationVariant[];
+  variants: CustomizationVariant[] | [];
 }
 
 export interface Item {
@@ -18,13 +18,13 @@ export interface Item {
   description: string;
   price: number;
   image: string;
-  customizations?: CustomizationOption[];
+  customizations?: CustomizationOption[] | [];
 }
 
 export interface Category {
   categoryId: string;
   categoryName: string;
-  items: Item[];
+  items?: Item[];
 }
 
 export interface Restaurant {
@@ -34,5 +34,5 @@ export interface Restaurant {
   deliveryTime: string;
   costRange: number;
   rating: number;
-  categories: Category[];
+  categories?: Category[];
 }
