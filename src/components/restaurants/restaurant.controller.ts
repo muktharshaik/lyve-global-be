@@ -11,12 +11,12 @@ export const getRestaurants = async (req: Request, res: Response) => {
   try {
     const data = await getRestaurantsList();
     if (data.status !== 200) {
-      res.send({
+      return res.send({
         status: 400,
         message: 'No data found!',
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       data: data.data,
     });
@@ -59,17 +59,17 @@ export const addRestaurant = async (req: Request, res: Response) => {
       costRange,
     });
     if (data.status !== 200) {
-      res.send({
+      return res.send({
         status: 400,
         message: 'Couldnt add restaurant!',
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       message: data.message,
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
     });
@@ -110,12 +110,12 @@ export const updateRestaurant = async (req: Request, res: Response) => {
       costRange,
     });
     if (data.status !== 200) {
-      res.send({
+      return res.send({
         status: 400,
         message: 'Couldnt add restaurant!',
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       data: data.data,
     });
@@ -144,17 +144,17 @@ export const deleteRestaurant = async (req: Request, res: Response) => {
     }
     const data = await deleteRestaurantFromList(restaurantId);
     if (data.status !== 200) {
-      res.send({
+      return res.send({
         status: 400,
         message: 'Couldnt add restaurant!',
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       data: data.message,
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
     });

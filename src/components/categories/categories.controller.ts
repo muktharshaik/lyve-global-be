@@ -29,13 +29,13 @@ export const getCategories = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       message: 'Got them restaurants!',
       response: data.data,
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
     });
@@ -72,13 +72,13 @@ export const updateCategory = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       message: 'Category updated successfully!',
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
       error: error.message,
@@ -110,13 +110,13 @@ export const addCategory = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       message: 'Category added successfully!',
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
       error: error.message,
@@ -148,13 +148,13 @@ export const deleteCategory = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       message: 'Category deleted successfully!',
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
       error: error.message,

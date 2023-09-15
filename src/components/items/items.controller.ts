@@ -28,7 +28,7 @@ export const getItems = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       data,
@@ -98,7 +98,7 @@ export const updateItems = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       message: 'Item updated successfully!',
@@ -160,13 +160,13 @@ export const addItem = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       message: 'Item updated successfully!',
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
       error: error.message,
@@ -200,13 +200,13 @@ export const deleteItem = async (req: Request, res: Response) => {
         message: data.message,
       });
     }
-    res.send({
+    return res.send({
       status: 200,
       response: true,
       data,
     });
   } catch (error) {
-    res.send({
+    return res.send({
       status: 500,
       message: 'Something went wrong!',
     });
