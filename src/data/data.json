@@ -3,7 +3,7 @@
     {
       "id": "7856c165-9108-4d24-83b5-2c24bc25d39f",
       "name": "KFC",
-      "image": "some string",
+      "image": "https://i.ibb.co/s6YWpJv/kfclogo.png",
       "deliveryTime": "45mins",
       "costRange": 2,
       "rating": 4.2,
@@ -17,7 +17,7 @@
               "name": "Super Mega Deal",
               "description": "8 Pcs Chicken + 5 Strips + 1 Family Fries + 1 Large Coleslaw + 500ML Drink",
               "price": 26,
-              "image": "some string",
+              "image": "https://i.ibb.co/85CBpBW/kfc.png",
               "customizations": [
                 {
                   "primaryText": "Select 8 pieces of your favourite flavour",
@@ -36,12 +36,12 @@
                     {
                       "name": "Crispy Strips Original",
                       "price": null,
-                      "image": "some string"
+                      "image": "https://i.ibb.co/85CBpBW/kfc.png"
                     },
                     {
                       "name": "Cripsy Strips Spicy",
                       "price": 1,
-                      "image": "Some string"
+                      "image": "https://i.ibb.co/85CBpBW/kfc.png"
                     }
                   ]
                 },
@@ -53,17 +53,17 @@
                     {
                       "name": "Family Fries",
                       "price": null,
-                      "image": "some string"
+                      "image": "https://i.ibb.co/85CBpBW/kfc.png"
                     },
                     {
                       "name": "Family Fries Spicy",
                       "price": 3,
-                      "image": "Some string"
+                      "image": "https://i.ibb.co/85CBpBW/kfc.png"
                     },
                     {
                       "name": "Family Fries Loaded",
                       "price": 5,
-                      "image": "some string"
+                      "image": "https://i.ibb.co/85CBpBW/kfc.png"
                     }
                   ]
                 }
@@ -74,14 +74,14 @@
               "name": "Mighty Lay's Flamin' Hot",
               "description": "2 Pcs Chicken + 5 Strips + 1 Family Friens + 1 Large Coleslaw + 1 Ltr Drink",
               "price": 49,
-              "image": "some String"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             },
             {
               "itemId": "75f9ee1f-f9a7-4dea-a52e-c5b67cc5d43f",
               "name": "Super Awesome Deal ahs been updated",
               "description": "some random description",
               "price": 27,
-              "image": "some string updated"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png updated"
             }
           ]
         },
@@ -94,21 +94,21 @@
               "name": "Veg zinger Burger with Cheese",
               "description": "Signature Veg burger with crispy patties, veggies & a tangy sauce",
               "price": 10,
-              "image": "some string"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             },
             {
               "itemId": "df90220f-14d5-4b75-846c-5e21104c3db8",
               "name": "Mighty Zinger Sandwich",
               "description": "2 Chicken breast fillets with KFC's SPicy Zinger Recipe, cheese, lettuce, spicy",
               "price": 13,
-              "image": "some string"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             },
             {
               "itemId": "534ac9e6-beb1-4508-9ac6-4c00fb535b72",
               "name": "Fillet Supreme",
               "description": "Original Chicken breast fillet, melted cheddar cheese, lettuce, smoked turkey",
               "price": 9,
-              "image": "some String"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             }
           ]
         },
@@ -121,14 +121,14 @@
               "name": "Mighty Zinger Sandwich",
               "description": "Dynamite Burger + Twister + Fries + Drink",
               "price": 30,
-              "image": "some string"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             },
             {
               "itemId": "f48632b7-bd39-4a21-8669-173e63a140d2",
               "name": "12 PCs Double Bucket",
               "description": "12 Pcs Chicken - Original + 12 Pcs + Chicken Spicy + Family Fries + Coleslaw Salad",
               "price": 63,
-              "image": "some string"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png"
             }
           ]
         },
@@ -141,7 +141,7 @@
               "name": "Super Awesome Deal",
               "description": "some random description",
               "price": 26,
-              "image": "some string updated"
+              "image": "https://i.ibb.co/85CBpBW/kfc.png updated"
             }
           ]
         }
@@ -149,8 +149,8 @@
     },
     {
       "id": "e4908e21-4631-4688-b38e-88bf59cfdb4f",
-      "name": "The Cheesecake Factory",
-      "image": "some string",
+      "name": "The Cheesecake",
+      "image": "https://i.ibb.co/PCDDgrw/cf.png",
       "deliveryTime": "30mins",
       "costRange": 2,
       "rating": 4.2,
@@ -164,7 +164,7 @@
               "name": "Luau Salad",
               "description": "Grilled chicken breast layered with mixed greens, pineapple, cucumbers, red and yellow peppers, green beans, carrots, onions and crisp wontons with macadamia nuts, peanuts and sesame seeds. Tossed in our vinaigrette.",
               "price": 84,
-              "image": "some string",
+              "image": "https://i.ibb.co/M77LBCL/luau.png",
               "customizations": [
                 {
                   "primaryText": "Select size",
@@ -182,7 +182,7 @@
               "name": "Factory Nachos",
               "description": "Crisp tortilla chips covered with melted cheeses, guacamole, sour cream, jalapenos, green onions and salsa.",
               "price": 69,
-              "image": "some String"
+              "image": "https://i.ibb.co/s1tyNK8/factory.png"
             }
           ]
         },
@@ -195,14 +195,14 @@
               "name": "Quesadilla",
               "description": "Grilled flour tortilla filled with melted cheese, green onions and chiles. Garnished with guacamole, salsa and sour cream.",
               "price": 30,
-              "image": "some string"
+              "image": "https://i.ibb.co/yYZWqLz/ques.png"
             },
             {
               "itemId": "8b35f051-f574-4565-b3a0-93a560bec9e6",
               "name": "Avocado Eggrolls",
               "description": "Avocado, sun dried tomato, red onion and cilantro fried in a crisp wrapper. Served with a tamarind cashew dipping sauce.",
               "price": 13,
-              "image": "some string"
+              "image": "https://i.ibb.co/DGLFCBg/eggrolls.png"
             }
           ]
         },
@@ -215,14 +215,14 @@
               "name": "Chicken Madeira with Steak Diane",
               "description": "Served with mashed potatoes.",
               "price": 30,
-              "image": "some string"
+              "image": "https://i.ibb.co/Xp26qGq/steak.png"
             },
             {
               "itemId": "08acc3c3-99ad-4870-a2b9-ea85fd16038f",
               "name": "Chargrilled Bone-In New York Steak",
               "description": "Served with Mashed Potatoes and Vegetable",
               "price": 13,
-              "image": "some string"
+              "image": "https://i.ibb.co/ZHMmP01/madi.png"
             }
           ]
         }
