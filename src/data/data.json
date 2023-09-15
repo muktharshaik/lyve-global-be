@@ -227,6 +227,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "e609506e-995e-4a5c-95da-be08461887c6",
+      "categories": [],
+      "name": "pizza hut",
+      "image": "https://i.ibb.co/pr9HKKd/pizza.png",
+      "deliveryTime": "45 min",
+      "rating": 3,
+      "costRange": 2
     }
   ]
 }
